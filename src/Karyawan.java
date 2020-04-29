@@ -5,8 +5,7 @@ public class Karyawan {
     int gaji;
     String alamat;
 
-
-    void Karyawan(String nama){
+    void nama(String nama){
         nama = nama;
     }
 
@@ -24,5 +23,13 @@ public class Karyawan {
 
     public void alamat(String Alamat){
         alamat = Alamat;
+    }
+    public void cetak(){
+        System.out.println("Nama    : " + nama);
+        System.out.println("Umur    : " + umur);
+        System.out.println("Pangkat : " + pangkat);
+        System.out.println("Gaji    : " + gaji);
+        System.out.println("Alamat  : " + alamat);
+        System.out.println();
     }
 }
